@@ -1,0 +1,387 @@
+
+/*шрифты*/
+	@font-face {
+	font-family: nam1;
+	src: url(GothamPro-Light.ttf)
+
+
+	}
+	@font-face {
+	font-family: nam2;
+	src: url(GothamPro.ttf)
+	
+
+	}
+	@font-face {
+	font-family: nam3;
+	src: url(GothamPro-Black.ttf)
+	}
+/*шрифты*/
+
+	
+	body {padding: 0;
+		
+		
+		margin: 0;
+
+		font-family: nam1;
+		min-width: ;
+	}
+	.fon11{
+		width: 100%;
+		z-index: -4;
+		position:absolute ;
+		background-repeat: no-repeat;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.fon{
+		width: 100%;
+		position: absolute;
+		z-index: -3;
+	
+	}
+	.container{
+		width: 62%;
+		margin-left: 18%;
+		margin-right: auto;
+
+
+	}
+	.menu {
+	display: contents;
+
+	}
+	.menu1{
+		text-decoration: none;
+    color: #fff;
+    font-size: 0.9vw;
+    color: #fff;
+    
+    font-weight: bold;
+    padding: 20% 3.5% 2% 3.5%;
+
+
+	}
+	.menu1:hover{
+		background-color: #133046;
+
+	}
+	
+
+
+	
+	.one2{
+		margin-left: 15%;
+    text-align: center;
+    margin-top: -5%;
+    display: inline-flex;
+    width: inherit;
+    width: 45%;
+
+
+	}
+	
+	
+	.reg2{
+		
+		text-decoration-line: none;
+    padding: 1.5% 4%;
+    background-color: #fff;
+    border-radius: 100px;
+    color: #3233DE;
+    float: right;
+    font-size: 0.9vw;
+    font-weight: bold;
+    margin-top: 2%;
+	
+	}
+	.reg2:hover{
+		background-color: #133046;
+		color: #fff;
+	}
+	
+
+	.one_line{
+		float: left;
+    color: #000;
+    display: contents;
+    font-size: 1.3vw;
+    font-family: nam3;
+    margin-top: 3%;
+	}
+	/*конец меню*/
+	.block2{
+		margin-top: 20%;
+	}
+	h2{
+		font-size: 1.2vw;
+    font-weight: normal;
+    margin: 0px;
+    margin-bottom: -10px;
+		
+	}
+	h1{
+		font-family: nam3;
+    font-size: 2.5vw;
+    line-height: 1.2;
+    letter-spacing: -1px;
+
+	}
+	.p1{
+		font-size: 0.9vw;
+    font-family: nam1;
+    line-height: 1.8;
+    letter-spacing: -0.3px;
+    margin-top: -9px;
+    font-weight: bold;
+
+	}
+
+
+	}
+	.box_input{
+		
+		width: 29%;
+		margin:0;
+		position: absolute;
+		margin-top: 1.5%;
+	}
+	
+	.download2{
+		background: linear-gradient( 180deg,#5F27D6,#4030D8);
+    padding: 1% 4.6%;
+    border-radius: 500px;
+    color: #fff;
+    font-size: 1.2vw;
+    text-decoration-line: none;
+    left: 30.7%;
+    right: auto;
+    position: absolute;
+    margin-top: 1.2%;
+		
+
+	
+	}
+	.download2:hover{
+
+		background:linear-gradient( 180deg,#9564ff,#6384ff);
+
+
+	}
+	.download2:active{
+		background: linear-gradient( 180deg,#9564ff,#6384ff);
+    box-shadow: 0px 0px 15px rgb(129, 150, 255);
+   animation-timing-function: 2s;
+
+	}
+	
+	.input{
+		padding: 1.5% 26% 1.5% 4%;
+    border-radius: 500px;
+    border: none;
+    box-shadow: 6px 6px 20px 0px rgba(0, 0, 0, 0.1);
+    outline: none;
+    font-size: 1.2vw;
+    width: 13%;
+    margin-top: 2%;
+		
+		
+		
+		
+	}
+	::-webkit-input-placeholder {color:#ACACAC;}
+	.phone_image{
+		width: 75%;
+    margin-top: -47%;
+    margin-left: 36%;
+    border-radius: 20px;
+    position: relative;
+    z-index: -1;
+
+	}
+	.fon2{
+		width: 100%;
+		position: absolute;
+		margin-top: 125px;
+	}
+	.fon2{
+		z-index: -3;
+	}
+	.container2{
+		width: 62%;
+    margin-left: 18%;
+    margin-right: auto;
+    color: #fff;
+    margin-top: 30%;
+		
+	}
+	.text1{
+		
+		font-family: nam1;
+		font-size: 1.2vw;
+	}
+	.text2{
+		font-family: nam3;
+    font-size: 2.5vw;
+    line-height: 1.2;
+    letter-spacing: -1px;
+    margin: 0;
+    position: absolute;
+	}
+	.block_text3{
+		margin-top: 6.6%;
+    float: right;
+	}
+	.text3{
+		font-size: 0.9vw;
+    font-family: nam1;
+    line-height: 1.8;
+    display: block;
+    letter-spacing: -0.5px;
+    margin: 0;
+	}
+	.line{
+		background: #4725b3;
+    height: 1px;
+    width: 62%;
+    margin-top: 13%;
+    position: absolute;
+	}
+	.block3{
+		
+	width: 70%;
+    position: absolute;
+    margin-top: 19%;
+
+
+
+	}
+	.number1{
+		font-size: 3vw;
+    font-family: nam3;
+    display: inline-flex;
+    margin: 0 8%;
+
+	}
+	.number1 span{
+		font-size: 1vw;
+    position: absolute;
+    margin-left: -1.7%;
+    font-family: nam1;
+    font-weight: lighter;
+    margin-top: 5%;
+	}
+
+	.fon3{
+		width: 100%;
+		
+		margin-top: 125px;
+	}
+	.block4{
+
+		width: 50%;
+    	margin-left: 43%;
+    	margin-top: 89%;
+	}
+	.form{
+		font-family: nam1;
+	    font-size: 1.2vw;
+	    margin-left: 20%
+	}
+	.recall{
+		margin-left: 11%;
+	    font-size: 2.5vw;
+	    font-family: nam3;
+	    letter-spacing: -1px;
+	    margin-top: -1%;
+	    margin-bottom: 6%;
+		
+	}
+	.recall span{
+		padding: 0 1% 0.5% 0.5%;
+	    border-bottom: solid;
+	    border-width: 0.4vw;
+	    border-color: #5F27D6;
+	    background-color: transparent;
+		
+	}
+	.input2{
+		padding: 1% 12% 1% 7%;
+	    border-radius: 100px;
+	    outline: none;
+	    border: solid;
+	    width: 43%;
+	    border-width: 1px;
+	    border-color: #454545;
+	    background-color: transparent;
+	    font-size: 1.2vw;
+	    margin-bottom: 4%;
+
+	}
+
+
+	#inp1{
+
+	}
+	#inp2{
+		
+	}
+	#inp3{
+		
+	}
+	.user{
+		width: 2.5%;
+	    margin-bottom: -0.8%;
+	    margin-left: -10%;
+	}
+	.mess{
+		width: 3%;
+	    margin-bottom: -0.6%;
+	    margin-left: -10%;
+	}
+	.phonei{
+		width: 3%;
+	    margin-bottom: -0.6%;
+	    margin-left: -10%;
+	}
+	#download22{
+		margin-top: 0.5%;
+    
+    margin-left: 20%;
+	}
+
+	.map{
+		width: 100%;
+		margin-top: 130px;
+		display: inline;
+	}
+	.bott{
+		width: 100%;
+		margin-top: -5px;
+		margin-bottom: -5px;
+		
+	}
+	.social{
+		text-align: center;
+	    margin-left: -8%;
+	    margin-top: 47%;
+	}
+	.soc{
+		width: 4%;
+    	margin-left: 7%;
+	}
+	.ref{
+		display: contents;
+	}
+
+	
+
+
+@media screen and (max-width:620px){
+	
+		.download2{
+			color:#000;
+			
+		}
+	}

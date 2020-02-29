@@ -1,0 +1,84 @@
+@media screen and (min-width: 3100px){
+	.container{
+		width: 63%;
+		margin-left: 250px;
+	}
+	.one2{
+		margin-left: 250px;
+	}
+	li{
+		font-size: 13px;
+		
+	}
+	.reg{
+		margin-left: 10%;
+		
+	}
+	.reg2{
+		margin-top: 20px;
+		padding: 13px 35px;
+		
+	}
+	.one_line{
+		font-size: 16px;
+	}
+	h2{
+		font-size: 20px;
+		margin-top: 20%;
+	}
+	h1{
+		font-size: 36px;
+		margin-top: -5px;
+	}
+	p{
+		font-size: 14px;
+		margin-top: -5px;
+	}
+	.input{
+		
+		width: 250px;
+		padding: 18px 110px 17px 20px;
+		font-size: 16px;
+
+	}
+	.download2{
+		padding: 18px 70px;
+		margin-left: 200px;
+		font-size: 16px;
+	}
+	.phone_image{
+		width: 200px;
+		margin-top: -350px;
+		margin-left: 530px;
+	}
+	.container2{
+		width: 63%;
+
+	}
+	.text1{
+		
+		
+		font-size: 18px;
+	}
+	.text2{
+		font-size: 28px;
+	}
+	.text3{
+		font-size: 14px;
+
+	}
+	.block_text3{
+		width: 900px;
+		margin-left: 50px;
+		margin-top: -90px;
+	}
+	.number1{
+		margin-left: 16%;
+	}
+	.number1 span{
+		margin-left: -1%;
+	}
+	.soc{
+		margin-top: -100px;
+	}
+}
